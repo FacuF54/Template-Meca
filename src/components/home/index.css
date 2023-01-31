@@ -1,0 +1,45 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#contenedorHome {
+    position: relative;
+    border: 2px rebeccapurple solid;
+    background: url("../img/R.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+.contenedorNav {
+    display: flex;
+    border: 2px rgb(185, 7, 7) solid;
+    background: -webkit-gradient(linear, left top, right top, from(rgb(49, 43, 43)), to(#3f3636));
+    background-size: cover;
+    height: 8vh;
+    padding: 1%;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btnNav {
+    background: transparent;
+    border: 0px;
+    color: cadetblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btnNav:hover {
+    transition: all 1s;
+    cursor: pointer;
+    color: rgb(129, 40, 40);
+}
